@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadora/calculadora.iml" filepath="$PROJECT_DIR$/calculadora/calculadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadorav2/calculadorav2.iml" filepath="$PROJECT_DIR$/calculadorav2/calculadorav2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/calculadorav2/calculadorav2.iml" filepath="$PROJECT_DIR$/calculadorav2/calculadorav2.iml" />
       <module fileurl="file://$PROJECT_DIR$/sumorrest/sumorrest.iml" filepath="$PROJECT_DIR$/sumorrest/sumorrest.iml" />
     </modules>
   </component>

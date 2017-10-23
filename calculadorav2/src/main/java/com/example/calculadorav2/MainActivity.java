@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        et2=(EditText)findViewById(R.id.et1);
+        et1=(EditText)findViewById(R.id.et1);
         et2=(EditText)findViewById(R.id.et2);
         tv3=(TextView)findViewById(R.id.tv3);
 
@@ -40,23 +40,23 @@ public class MainActivity extends AppCompatActivity {
             resu=String.valueOf(suma);
             tv3.setText(resu);
         }
-        if(selec.equals("RESTAR")) {
+        else if(selec.equals("RESTAR")) {
             int resta=n1-n2;
             resu=String.valueOf(resta);
             tv3.setText(resu);
         }
-        if(selec.equals("MULTIPLICAR")) {
+        else if(selec.equals("MULTIPLICAR")) {
             int multiplicar=n1*n2;
             resu=String.valueOf(multiplicar);
             tv3.setText(resu);
         }
-        if(selec.equals("DIVIDIR")) {
+        else if(selec.equals("DIVIDIR")) {
             if(n2!=0) {
                 int dividir = n1 / 2;
                 resu = String.valueOf(dividir);
                 tv3.setText(resu);
             }
-            else if(n2==0) {
+            if(n2==0) {
                 tv3.setText("NO /0");
             }
         }

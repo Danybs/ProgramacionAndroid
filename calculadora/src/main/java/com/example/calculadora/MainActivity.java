@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
             int decimal2 = Integer.parseInt(v2.getText().toString(), 2);
             int res = decimal1 + decimal2;
             String binario = Integer.toBinaryString(res);
-        /*Toast.makeText(this, "El resultado de la suma es: " + binario, Toast.LENGTH_SHORT).show();*/
+        /*Toast.makeText(this, "El resultado de la suma es: " + binario, Toast.LENGTH_SHORT).show();*
             mostrar.setText("bin: " + binario);
             mostrar2.setText("dec: " + res);
         } catch (Exception e) {

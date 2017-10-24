@@ -1,1 +1,1 @@
-include ':app', ':calculadora', ':sumorrest', ':calculadorav2', ':applistview'
+include ':app', ':calculadora', ':sumorrest', ':calculadorav2', ':applistview', ':botonesTest'

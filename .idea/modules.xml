@@ -4,12 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ProgramacionAndroid.iml" filepath="$PROJECT_DIR$/ProgramacionAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Dani\Documents\GitHub\ProgramacionAndroid\app\app.iml" filepath="D:\Dani\Documents\GitHub\ProgramacionAndroid\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/applistview/applistview.iml" filepath="$PROJECT_DIR$/applistview/applistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/botonesTest/botonesTest.iml" filepath="$PROJECT_DIR$/botonesTest/botonesTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadora/calculadora.iml" filepath="$PROJECT_DIR$/calculadora/calculadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadorav2/calculadorav2.iml" filepath="$PROJECT_DIR$/calculadorav2/calculadorav2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventos/eventos.iml" filepath="$PROJECT_DIR$/eventos/eventos.iml" />
       <module fileurl="file://$PROJECT_DIR$/passwordapp/passwordapp.iml" filepath="$PROJECT_DIR$/passwordapp/passwordapp.iml" />
+      <module fileurl="file://D:\Dani\Documents\GitHub\ProgramacionAndroid\passwordapp\passwordapp.iml" filepath="D:\Dani\Documents\GitHub\ProgramacionAndroid\passwordapp\passwordapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/passwordapp2/passwordapp2.iml" filepath="$PROJECT_DIR$/passwordapp2/passwordapp2.iml" />
       <module fileurl="file://$PROJECT_DIR$/sumorrest/sumorrest.iml" filepath="$PROJECT_DIR$/sumorrest/sumorrest.iml" />
     </modules>
   </component>

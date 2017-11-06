@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ProgramacionAndroid.iml" filepath="$PROJECT_DIR$/ProgramacionAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\Dani\Documents\GitHub\ProgramacionAndroid\app\app.iml" filepath="D:\Dani\Documents\GitHub\ProgramacionAndroid\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/applistview/applistview.iml" filepath="$PROJECT_DIR$/applistview/applistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/botonesTest/botonesTest.iml" filepath="$PROJECT_DIR$/botonesTest/botonesTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadora/calculadora.iml" filepath="$PROJECT_DIR$/calculadora/calculadora.iml" />

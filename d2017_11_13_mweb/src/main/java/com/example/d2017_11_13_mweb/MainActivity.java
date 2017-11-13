@@ -18,11 +18,18 @@ public class MainActivity extends AppCompatActivity {
 
         et1 = (EditText) findViewById(R.id.et1);
         b1 = (Button) findViewById(R.id.b1);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ejecutar(null);
+            }
+        });
     }
     public void ejecutar(View view){
         Intent i = new Intent(this, Main2Activity.class);
         i.putExtra("direccion", et1.getText().toString());
         startActivity(i);
     }
+
 
 }

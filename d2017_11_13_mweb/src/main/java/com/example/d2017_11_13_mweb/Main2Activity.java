@@ -17,6 +17,7 @@ public class Main2Activity extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         wb1.loadUrl("http://"+bundle.getString("direccion"));
+
     }
     public void finalizar(View view) {
         finish();

@@ -20,7 +20,7 @@ public class grantAcess extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         wb1 = (WebView) findViewById(R.id.wb1);
         tv1.setText("Bienvenido: "+bundle.getString("usuario"));
-        wb1.loadUrl("http://"+gettext);
+        wb1.loadUrl("http://");
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

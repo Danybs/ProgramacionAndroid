@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, grantAcess.class);
 
         String user = et1.getText().toString();
-        String pw = et1.getText().toString();
+        String pw = et2.getText().toString();
     //no compara numeros
         if((user.equalsIgnoreCase(user1) && pw.equalsIgnoreCase(pass1)) || (user.equalsIgnoreCase(user2) && pw.equalsIgnoreCase(pass2))) {
             i.putExtra("usuario", user);

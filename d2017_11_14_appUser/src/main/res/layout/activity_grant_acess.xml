@@ -9,52 +9,77 @@
 
     <TextView
         android:id="@+id/tv1"
-        android:layout_width="290dp"
-        android:layout_height="46dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="9dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="8dp"
         android:textColor="@android:color/black"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="8dp" />
+        app:layout_constraintBottom_toTopOf="@+id/tv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
         android:text="Permisos a internet concedidos"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="63dp" />
+        app:layout_constraintBottom_toTopOf="@+id/et1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
 
     <Button
         android:id="@+id/b1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="54dp"
+        android:layout_marginTop="13dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="242dp"
-        tools:layout_editor_absoluteY="181dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b2"
+        app:layout_constraintTop_toBottomOf="@+id/et1" />
 
     <WebView
         android:id="@+id/wb1"
-        android:layout_width="364dp"
-        android:layout_height="246dp"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="257dp" />
+        android:layout_width="376dp"
+        android:layout_height="292dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b2" />
 
     <EditText
         android:id="@+id/et1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="30dp"
         android:ems="10"
         android:gravity="center"
         android:hint="URL"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="122dp" />
+        app:layout_constraintBottom_toTopOf="@+id/b2"
+        app:layout_constraintEnd_toEndOf="@+id/b1"
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
 
     <Button
         android:id="@+id/b2"
-        android:layout_width="80dp"
-        android:layout_height="57dp"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginStart="30dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="181dp" />
+        app:layout_constraintBottom_toTopOf="@+id/wb1"
+        app:layout_constraintEnd_toStartOf="@+id/b1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et1" />
 </android.support.constraint.ConstraintLayout>
